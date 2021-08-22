@@ -1,12 +1,26 @@
-html {
+* {
     height: 100vh;
     width: 100%;
     margin: 0;
     padding: 0;
   }
   
-
 .content {
   display: flex;
   flex-direction: column;
+}
+
+.sliderContainer {
+    background-color: blue;
+    height: 400px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.imagesSlider {
+    height: 400px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
