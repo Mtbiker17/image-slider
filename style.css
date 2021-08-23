@@ -11,16 +11,64 @@
 }
 
 .sliderContainer {
+    display: flex;
     background-color: blue;
     height: 400px;
-    width: 100%;
-    margin: 0;
+    width: 90%;
+    margin: auto;
     padding: 0;
 }
 
 .imagesSlider {
-    height: 400px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
     width: 100%;
-    margin: 0;
-    padding: 0;
+    margin: 7px 10px 10px 10px;
+    background-color: yellow;
+}
+
+.arrowContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 75px;
+    width: 100%;
+    margin-top: 145px;
+}
+
+.arrow {
+    height: 75px;
+    width: 75px;
+    margin-right: 40%;
+    margin-left: 40%;
+    opacity: 0.4;
+    transition: 0.3s;
+}
+
+.arrow:hover {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.dotContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 110px;
+}
+
+.navDots {
+    height: 12px;
+    width: 12px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 6px;
+    opacity: 0.3;
+    transition: 0.3s;
+}
+
+.navDots:hover {
+    opacity: 1;
+    transition: 0.3s;
 }
