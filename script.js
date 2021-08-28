@@ -11,7 +11,7 @@ function showSlider() {
         imageNumber = 1;
     }
     images[imageNumber - 1].style.display = 'block';
-    setTimeout(showSlider, 2000);
+    setTimeout(showSlider, 1000);
 }
 
 function next() {
